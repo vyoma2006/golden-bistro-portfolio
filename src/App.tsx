@@ -729,8 +729,8 @@ function ContactSection() {
                 </div>
                 <div>
                   <h4 className="text-amber-100 font-semibold mb-1">Phone</h4>
-                  <p className="text-amber-200/60">+91 11 4567 8900</p>
-                  <p className="text-amber-200/60">+91 98765 43210 (WhatsApp)</p>
+                  <p className="text-amber-200/60">+91 8320150054</p>
+                  <p className="text-amber-200/60">+91 8320150054 (WhatsApp)</p>
                 </div>
               </div>
 
@@ -761,14 +761,14 @@ function ContactSection() {
 
             <div className="flex flex-wrap gap-4 mt-8">
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/918320150054"
                 className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-500 text-white px-6 py-3 rounded-full font-medium transition-all"
               >
                 <MessageCircle className="h-5 w-5" />
                 WhatsApp Us
               </a>
               <a
-                href="tel:+911145678900"
+                href="tel:+918320150054"
                 className="inline-flex items-center gap-2 border-2 border-amber-500 text-amber-400 hover:bg-amber-500/10 px-6 py-3 rounded-full font-medium transition-all"
               >
                 <Phone className="h-5 w-5" />
@@ -855,7 +855,7 @@ function ReservationSection() {
                 value={formData.phone}
                 onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                 className="w-full bg-stone-800/70 border border-amber-900/50 rounded-xl px-4 py-3 text-amber-50 placeholder-amber-200/30 focus:border-amber-500 focus:ring-1 focus:ring-amber-500 focus:outline-none transition-all"
-                placeholder="+91 98765 43210"
+                placeholder="+91 8320150054"
               />
             </div>
             <div>
@@ -1009,7 +1009,7 @@ function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-amber-500" />
-                +91 11 4567 8900
+                +91 8320150054
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-amber-500" />
@@ -1038,7 +1038,7 @@ function Footer() {
 function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/919876543210"
+      href="https://wa.me/918320150054"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-green-500 hover:bg-green-400 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all group"
